@@ -1,0 +1,18 @@
+srpm_build_deps:
+  - cargo
+  - meson
+  - gcc
+  - rust-packaging
+  - pkgconfig(glib-2.0)
+  - pkgconfig(gtk4)
+  - pkgconfig(libadwaita-1)
+  - pkgconfig(pango)
+  - pkgconfig(libpulse)
+  - libappstream-glib
+  - desktop-file-utils
+  - libxcb-devel
+  - pkgconfig(gstreamer-1.0)
+  - pkgconfig(gstreamer-audio-1.0)
+  - pkgconfig(gstreamer-video-1.0)
+  - pkgconfig(gstreamer-pbutils-1.0)
+  - xorg-x11-server-Xvfb
